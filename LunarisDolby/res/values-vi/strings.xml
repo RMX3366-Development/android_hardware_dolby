@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-25 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_enable">Bật Dolby Atmos</string>
+    <string name="dolby_profile_title">Chọn hồ sơ</string>
+    <string name="dolby_preset">Bộ cân bằng âm thanh đồ họa</string>
+    <string name="dolby_off">Tắt</string>
+    <string name="dolby_on">Bật</string>
+    <string name="dolby_low">Thấp</string>
+    <string name="dolby_medium">Trung bình</string>
+    <string name="dolby_high">Cao</string>
+    <string name="dolby_max">Tối đa</string>
+    <string name="dolby_unknown">Không xác định</string>
+    <string name="dolby_on_with_profile">Đã bật (%1$s)</string>
+    <string name="dolby_category_settings">Cài đặt âm thanh</string>
+    <string name="dolby_category_adv_settings">Cài đặt nâng cao</string>
+    <string name="dolby_adv_settings_footer">Chọn hồ sơ khác để hiển thị cài đặt nâng cao.</string>
+    <string name="dolby_bass_enhancer">Bộ tăng cường âm trầm</string>
+    <string name="dolby_bass_level">Mức âm trầm</string>
+    <string name="dolby_bass_curve">Đường cong âm trầm</string>
+    <string name="dolby_bass_curve_balanced">Cân bằng</string>
+    <string name="dolby_bass_curve_sub_boost">Tăng cường âm siêu trầm</string>
+    <string name="dolby_bass_curve_punch">Tăng cường âm trầm mạnh</string>
+    <string name="dolby_treble_enhancer">Bộ tăng cường âm cao</string>
+    <string name="dolby_treble_level">Mức âm cao</string>
+    <string name="dolby_dialogue_enhancer">Bộ tăng cường giọng nói</string>
+    <string name="dolby_spk_virtualizer">Máy ảo âm trường bao quanh cho loa</string>
+    <string name="dolby_hp_virtualizer">Máy ảo âm trường bao quanh cho tai nghe</string>
+    <string name="dolby_volume_leveler">Bộ cân bằng âm lượng</string>
+    <string name="dolby_bass_enhancer_summary">Tăng cường tần số thấp, tạo âm trầm đậm đà hơn</string>  
+    <string name="dolby_treble_enhancer_summary">Tăng cường tần số cao, đảm bảo âm cao rõ ràng hơn</string>
+    <string name="dolby_dialogue_enhancer_summary">Nâng cao độ rõ nét của giọng nói con người</string>  
+    <string name="dolby_spk_virtualizer_summary">Tạo hiệu ứng âm trường bao quanh trên loa</string>  
+    <string name="dolby_hp_virtualizer_summary">Tạo hiệu ứng âm trường bao quanh trên tai nghe</string>  
+    <string name="dolby_volume_leveler_summary">Cân bằng âm lượng để trải nghiệm âm thanh ổn định</string>  
+    <string name="dolby_connect_headphones">Kết nối tai nghe</string>
+    <string name="dolby_reset_all">Đặt lại tất cả hồ sơ</string>
+    <string name="dolby_reset_all_message">Hành động này sẽ đưa tất cả hồ sơ về cài đặt gốc nhà máy.</string>
+    <string name="dolby_reset_all_toast">Đã đặt lại tất cả hồ sơ thành công</string>
+    <string name="dolby_hp_virtualizer_dolby_strength">Cường độ máy ảo âm trường bao quanh</string>
+    <string name="dolby_dialogue_enhancer_dolby_strength">Cường độ bộ tăng cường giọng nói</string>
+    <string name="dolby_notification_listener_label">Dịch vụ Dolby Atmos</string>
+
+    <!-- Dolby profiles -->
+    <string name="dolby_profile_dynamic">Động</string>
+    <string name="dolby_profile_video">Video</string>
+    <string name="dolby_profile_music">Âm nhạc</string>
+    <string name="dolby_profile_game">Trò chơi</string>
+    <string name="dolby_profile_work">Công việc</string>
+    <string name="dolby_profile_casual">Giải trí</string>
+    <string name="dolby_profile_mood">Không khí</string>
+
+    <!-- Dolby equalizer presets -->
+    <string name="dolby_preset_default">Đường thẳng (tắt)</string>
+    <string name="dolby_preset_rock">Rock</string>
+    <string name="dolby_preset_jazz">Jazz</string>
+    <string name="dolby_preset_pop">Pop</string>
+    <string name="dolby_preset_classical">K cổ điển</string>
+    <string name="dolby_preset_hiphop">Hip-hop</string>
+    <string name="dolby_preset_blues">Blues</string>
+    <string name="dolby_preset_electronic">Điện tử</string>
+    <string name="dolby_preset_country">Country</string>
+    <string name="dolby_preset_dance">Dance</string>
+    <string name="dolby_preset_metal">Metal</string>
+    <string name="dolby_preset_acoustic">Acoustic</string>
+    <string name="dolby_preset_bass">Tăng cường âm trầm</string>
+    <string name="dolby_preset_beats">Beat</string>
+    <string name="dolby_preset_clear">Am thanh rõ ràng</string>
+    <string name="dolby_preset_deep">Am trầm sâu</string>
+    <string name="dolby_preset_dubstep">Dubstep</string>
+    <string name="dolby_preset_hardstyle">Hardstyle</string>
+    <string name="dolby_preset_movie">Rạp chiếu phim</string>
+    <string name="dolby_preset_rb">R&amp;B</string>
+    <string name="dolby_preset_vocal">Tăng cường giọng hát</string>
+    <string name="dolby_preset_custom">Tùy chỉnh</string>
+
+    <!-- Dolby equalizer UI -->
+    <string name="dolby_geq_slider_label_gain">Tăng cường âm</string>
+    <string name="dolby_geq_preset">Cài đặt sẵn</string>
+    <string name="dolby_geq_preset_name">Tên cài đặt sẵn</string>
+    <string name="dolby_geq_new_preset">Tạo cài đặt sẵn mới</string>
+    <string name="dolby_geq_rename_preset">Đổi tên cài đặt sẵn</string>
+    <string name="dolby_geq_delete_preset">Xóa cài đặt sẵn</string>
+    <string name="dolby_geq_delete_preset_prompt">Bạn có muốn xóa cài đặt sẵn này không?</string>
+    <string name="dolby_geq_reset_gains">Đặt lại mức tăng cường âm</string>
+    <string name="dolby_geq_reset_gains_prompt">Bạn có muốn đưa cài đặt sẵn này về giá trị mặc định không?</string>
+    <string name="dolby_geq_preset_name_exists">Tên này đã tồn tại!</string>
+    <string name="dolby_geq_preset_name_too_long">Tên quá dài!</string>
+
+    <!-- Dolby intelligent EQ -->
+    <string name="dolby_ieq">Bộ cân bằng âm thanh thông minh</string>
+    <string name="dolby_balanced">Cân bằng</string>
+    <string name="dolby_warm">Dịu nhẹ</string>
+    <string name="dolby_detailed">Chi tiết</string>
+
+    <!-- Per-App Audio Profiles -->
+    <string name="app_profiles_title">Hồ sơ âm thanh theo ứng dụng</string>
+    <string name="app_profiles_description">Gán cài đặt âm thanh độc đáo cho từng ứng dụng, tối ưu âm thanh theo loại nội dung</string>
+    <string name="app_profiles_search_hint">Tìm kiếm ứng dụng...</string>
+    <string name="app_profiles_no_apps">Không tìm thấy ứng dụng</string>
+    <string name="app_profiles_loading">Đang tải ứng dụng...</string>
+    <string name="app_profiles_clear_all">Xóa tất cả cài đặt ứng dụng</string>
+    <string name="app_profiles_clear_all_message">Hành động này sẽ xóa tất cả cài đặt gán cho ứng dụng, chúng sẽ sử dụng hồ sơ mặc định.</string>
+    <string name="app_profiles_manage">Quản lý cài đặt ứng dụng</string>
+    <string name="app_profiles_default">Mặc định</string>
+    <string name="app_profiles_change">Thay đổi</string>
+    <string name="app_profiles_assigned">Đã gán: %1$s</string>
+    <string name="app_profiles_headphone_only">Chỉ chế độ tai nghe/Bluetooth</string>
+    <string name="app_profiles_headphone_only_description">Chuyển hồ sơ chỉ khi kết nối tai nghe hoặc thiết bị âm thanh Bluetooth</string>
+
+    <!-- Preset Import/Export -->
+    <string name="preset_import_export">Nhập/Xuất cài đặt sẵn</string>
+    <string name="preset_export_single">Xuất cài đặt sẵn</string>
+    <string name="preset_import_single">Nhập cài đặt sẵn</string>
+    <string name="preset_export_batch">Xuất tất cả cài đặt sẵn</string>
+    <string name="preset_import_batch">Nhập hàng loạt cài đặt sẵn</string>
+    <string name="preset_copy_clipboard">Sao chép vào bảng nhớ tạm</string>
+    <string name="preset_paste_clipboard">Dán từ bảng nhớ tạm</string>
+    <string name="preset_share">Chia sẻ cài đặt sẵn</string>
+    <string name="preset_export_success">Xuất cài đặt sẵn thành công</string>
+    <string name="preset_import_success">Nhập cài đặt sẵn thành công</string>
+    <string name="preset_export_failed">Lỗi khi xuất</string>
+    <string name="preset_import_failed">Lỗi khi nhập</string>
+
+</resources>

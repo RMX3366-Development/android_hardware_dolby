@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-25 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_enable">Включить Dolby Atmos</string>
+    <string name="dolby_profile_title">Выбрать профиль</string>
+    <string name="dolby_preset">Графический эквалайзер</string>
+    <string name="dolby_off">Выключено</string>
+    <string name="dolby_on">Включено</string>
+    <string name="dolby_low">Низкий</string>
+    <string name="dolby_medium">Средний</string>
+    <string name="dolby_high">Высокий</string>
+    <string name="dolby_max">Максимум</string>
+    <string name="dolby_unknown">Неизвестно</string>
+    <string name="dolby_on_with_profile">Включено (%1$s)</string>
+    <string name="dolby_category_settings">Настройка звука</string>
+    <string name="dolby_category_adv_settings">Дополнительные настройки</string>
+    <string name="dolby_adv_settings_footer">Выберите другой профиль, чтобы отобразить дополнительные настройки.</string>
+    <string name="dolby_bass_enhancer">Усилитель низких частот</string>
+    <string name="dolby_bass_level">Уровень низких частот</string>
+    <string name="dolby_bass_curve">Кривая низких частот</string>
+    <string name="dolby_bass_curve_balanced">Сбалансировано</string>
+    <string name="dolby_bass_curve_sub_boost">Усиление субвуфера</string>
+    <string name="dolby_bass_curve_punch">Усиление баса</string>
+    <string name="dolby_treble_enhancer">Усилитель высоких частот</string>
+    <string name="dolby_treble_level">Уровень высоких частот</string>
+    <string name="dolby_dialogue_enhancer">Усилитель речи</string>
+    <string name="dolby_spk_virtualizer">Виртуализатор объемного звука для колонок</string>
+    <string name="dolby_hp_virtualizer">Виртуализатор объемного звука для наушников</string>
+    <string name="dolby_volume_leveler">Уровнятор громкости</string>
+    <string name="dolby_bass_enhancer_summary">Усиляет низкие частоты, создавая более насыщенный бас</string>  
+    <string name="dolby_treble_enhancer_summary">Усиляет высокие частоты, обеспечивая более четкий высокий тон</string>
+    <string name="dolby_dialogue_enhancer_summary">Повышает четкость человеческой речи и голоса</string>  
+    <string name="dolby_spk_virtualizer_summary">Создает эффект объемного звука на колонках</string>  
+    <string name="dolby_hp_virtualizer_summary">Создает эффект объемного звука на наушниках</string>  
+    <string name="dolby_volume_leveler_summary">Выравнивает громкость для стабильного звукового опыта</string>  
+    <string name="dolby_connect_headphones">Подключить наушники</string>
+    <string name="dolby_reset_all">Сбросить профили</string>
+    <string name="dolby_reset_all_message">Данное действие вернет все профили к заводским настройкам.</string>
+    <string name="dolby_reset_all_toast">Все профили успешно сброшены</string>
+    <string name="dolby_hp_virtualizer_dolby_strength">Интенсивность виртуализатора объемного звука</string>
+    <string name="dolby_dialogue_enhancer_dolby_strength">Интенсивность усилителя речи</string>
+    <string name="dolby_notification_listener_label">Сервис Dolby Atmos</string>
+
+    <!-- Dolby profiles -->
+    <string name="dolby_profile_dynamic">Динамический</string>
+    <string name="dolby_profile_video">Видео</string>
+    <string name="dolby_profile_music">Музыка</string>
+    <string name="dolby_profile_game">Игры</string>
+    <string name="dolby_profile_work">Работа</string>
+    <string name="dolby_profile_casual">Развлечения</string>
+    <string name="dolby_profile_mood">Атмосфера</string>
+
+    <!-- Dolby equalizer presets -->
+    <string name="dolby_preset_default">Прямая линия (выключено)</string>
+    <string name="dolby_preset_rock">Рок</string>
+    <string name="dolby_preset_jazz">Джаз</string>
+    <string name="dolby_preset_pop">Поп</string>
+    <string name="dolby_preset_classical">Классика</string>
+    <string name="dolby_preset_hiphop">Хип-хоп</string>
+    <string name="dolby_preset_blues">Блюз</string>
+    <string name="dolby_preset_electronic">Электро</string>
+    <string name="dolby_preset_country">Кантри</string>
+    <string name="dolby_preset_dance">Дэнс</string>
+    <string name="dolby_preset_metal">Метал</string>
+    <string name="dolby_preset_acoustic">Акустика</string>
+    <string name="dolby_preset_bass">Усиление баса</string>
+    <string name="dolby_preset_beats">Биты</string>
+    <string name="dolby_preset_clear">Чистый звук</string>
+    <string name="dolby_preset_deep">Глубокий бас</string>
+    <string name="dolby_preset_dubstep">Даубстеп</string>
+    <string name="dolby_preset_hardstyle">Хардстайл</string>
+    <string name="dolby_preset_movie">Кино</string>
+    <string name="dolby_preset_rb">R&amp;B</string>
+    <string name="dolby_preset_vocal">Усиление голоса</string>
+    <string name="dolby_preset_custom">Пользовательский</string>
+
+    <!-- Dolby equalizer UI -->
+    <string name="dolby_geq_slider_label_gain">Усиление</string>
+    <string name="dolby_geq_preset">Предустановка</string>
+    <string name="dolby_geq_preset_name">Название предустановки</string>
+    <string name="dolby_geq_new_preset">Создать предустановку</string>
+    <string name="dolby_geq_rename_preset">Переименовать предустановку</string>
+    <string name="dolby_geq_delete_preset">Удалить предустановку</string>
+    <string name="dolby_geq_delete_preset_prompt">Удалить эту предустановку?</string>
+    <string name="dolby_geq_reset_gains">Сбросить усиление</string>
+    <string name="dolby_geq_reset_gains_prompt">Вернуть эту предустановку к стандартным значениям?</string>
+    <string name="dolby_geq_preset_name_exists">Это название уже существует!</string>
+    <string name="dolby_geq_preset_name_too_long">Название слишком длинное!</string>
+
+    <!-- Dolby intelligent EQ -->
+    <string name="dolby_ieq">Интеллектуальный эквалайзер</string>
+    <string name="dolby_balanced">Сбалансировано</string>
+    <string name="dolby_warm">Теплый</string>
+    <string name="dolby_detailed">Детализированный</string>
+
+    <!-- Per-App Audio Profiles -->
+    <string name="app_profiles_title">Звуковые профили по приложениям</string>
+    <string name="app_profiles_description">Назначайте уникальные звуковые настройки для разных приложений, оптимизируя звук под тип контента</string>
+    <string name="app_profiles_search_hint">Поиск приложений...</string>
+    <string name="app_profiles_no_apps">Приложения не найдены</string>
+    <string name="app_profiles_loading">Загрузка приложений...</string>
+    <string name="app_profiles_clear_all">Очистить все настройки приложений</string>
+    <string name="app_profiles_clear_all_message">Данное действие удалит все назначенные настройки для приложений, они будут использовать стандартный профиль.</string>
+    <string name="app_profiles_manage">Управление настройками приложений</string>
+    <string name="app_profiles_default">Стандартный</string>
+    <string name="app_profiles_change">Изменить</string>
+    <string name="app_profiles_assigned">Назначено: %1$s</string>
+    <string name="app_profiles_headphone_only">Только режим наушников/블ютуз</string>
+    <string name="app_profiles_headphone_only_description">Переключать профиль только при подключении наушников или блютуз-аудиоустройств</string>
+
+    <!-- Preset Import/Export -->
+    <string name="preset_import_export">Импорт/экспорт предустановок</string>
+    <string name="preset_export_single">Экспорт предустановки</string>
+    <string name="preset_import_single">Импорт предустановки</string>
+    <string name="preset_export_batch">Экспорт всех предустановок</string>
+    <string name="preset_import_batch">Пакетный импорт предустановок</string>
+    <string name="preset_copy_clipboard">Копировать в буфер обмена</string>
+    <string name="preset_paste_clipboard">Вставить из буфера обмена</string>
+    <string name="preset_share">Поделиться предустановкой</string>
+    <string name="preset_export_success">Экспорт предустановки завершен</string>
+    <string name="preset_import_success">Импорт предустановки завершен</string>
+    <string name="preset_export_failed">Ошибка экспорта</string>
+    <string name="preset_import_failed">Ошибка импорта</string>
+
+</resources>
